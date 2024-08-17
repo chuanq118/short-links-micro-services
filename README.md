@@ -7,6 +7,30 @@
 
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/opengoofy/hippo4j/develop?color=orange)
 
+## Learn Notes
+
+> 分布式进阶
+
+- Redis 集群部署
+  - 哨兵
+  - 读写key哈希逻辑
+  - 分布式场景下大量key雪崩
+- MySQL 集群
+  - 读写分离设计
+  - 主从备份
+- 分布式事务
+  - 场景与解决方案
+- Nacos 配置注册中心(待深入)
+- Hystrix / Sentinel
+  - 对比
+  - 熔断隔离的实现原理（线程池、信号量（JAVA 底层信号量实现原理））
+  - 
+- 链路追踪
+- 负载均衡策略
+  - Nginx
+  - SpringCloud Gateway (反代逻辑)
+
+
 ## 简介
 
 ![](https://images-machen.oss-cn-beijing.aliyuncs.com/image-20231115133642504.png)
